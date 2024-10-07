@@ -1,0 +1,38 @@
+<div id="page-wrap">
+    <div id="max-width-column">
+
+        <div id="top-bar">
+            <a routerLink="/Newlist">
+                <h1 id="app-heading"> Daily Grocery List</h1>
+                </a>
+        </div>
+
+        <div id="top-bar">
+            <a routerLink="/Newlist">
+                <button class="create-button">New List</button>
+            </a>
+        </div>
+
+        <div id="top-bar">
+            <a routerLink="/Newlist">
+                <h3 id="app-heading"> </h3>
+                </a>
+        </div>
+
+        <div id="content-wrap">
+            <div class="content-box" *ngFor="let listing of Mylist">
+                <div>
+                    <strong>{{listing.name}}</strong> - {{listing.quantity}} - Tk {{listing.price}}.
+                </div>
+                <div class="buttons-container">
+                    <a routerLink="/Editlist/{{listing.id}}">  
+                        <button>Edit</button>
+                    </a>
+                    <button (click)="onDeleteClicked(listing.id)">Delete</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

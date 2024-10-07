@@ -1,0 +1,47 @@
+/* Style for the create list container */
+.create-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    width: 100%; /* Ensures it takes the full width but constrained by max-width */
+    box-sizing: border-box; /* Padding doesn't affect width calculation */
+}
+
+/* Restrict the width of the form to a reasonable size */
+.create-list-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between form elements */
+    width: 100%; /* Full width inside its container */
+    max-width: 300px; /* Limit the form width to 400px */
+    box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
+}
+
+/* Adjusting the input fields */
+.create-list-form input {
+    padding: 8px;
+    width: 100%; /* Full width of the form */
+    box-sizing: border-box; /* Padding doesn't affect width */
+}
+
+/* Style for the title */
+.create-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px; /* Adds space between the title and the form */
+}
+
+/* Create list form submit button */
+.create-list-form button {
+    padding: 8px;
+    width: 120px; /* Smaller button width */
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    display: block;
+    margin: 16px auto; /* Center the button horizontally */
+}
+

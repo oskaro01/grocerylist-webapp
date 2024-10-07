@@ -1,0 +1,146 @@
+import { Listing } from './types';
+
+export const fakeMyListings: Listing[] = [{
+    id: '123',
+    name: 'Old Boat',
+    quantity: '25 kg',
+    price: 700,
+    views: 0,
+}, {
+    id: '345',
+    name: 'Computer',
+    quantity: '1 hali',
+    price: 50,
+    views: 0,
+}, {
+    id: '456',
+    name: 'Basketball Hoop',
+    quantity: '2 L',
+    price: 100,
+    views: 0,
+}];
+
+export const fakeListings: Listing[] = [{
+    id: '789',
+    name: 'Bicyclejadfjojadfjoajdfjoag',
+    quantity: '1 poaadfjkadkfjaf',
+    price: 75,
+    views: 0,
+}, {
+    id: '234',
+    name: 'Electric Guitardvam,nmcnvlzncvlklnadf',
+    quantity: '250 ml',
+    price: 99999,
+    views: 0,
+}, {
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},
+{
+    id: '947',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},
+{
+    id: '487',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},
+{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+},{
+    id: '987',
+    name: 'Playstation',
+    quantity: 'get 1',
+    price: 450,
+    views: 0,
+}];

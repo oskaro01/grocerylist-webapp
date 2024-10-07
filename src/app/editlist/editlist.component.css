@@ -1,0 +1,86 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+}
+
+#page-wrap {
+    background-color: #FFF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+#max-width-column {
+    max-width: 800px;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+#app-heading {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+/* New Button Styling */
+.newlistButton {
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+    text-decoration: none; /* Remove underline */
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Flexbox container for the button */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* On hover */
+.newlistButton:hover {
+    background-color: #F0F0F0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    #max-width-column {
+        padding: 19px;
+    }
+    .content-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+    .buttons-container {
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .newlistButton {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+    #app-heading {
+        font-size: 24px;
+    }
+}
+
+

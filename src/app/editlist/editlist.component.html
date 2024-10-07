@@ -1,0 +1,15 @@
+<div class="create-list-container" *ngIf="Mylist">
+    <h2 class="create-list-title">Edit List</h2> <!-- Title on top -->
+    <app-listing-data-form 
+    buttonText="Save" 
+    [currentName]="Mylist.name"
+    [currentQuantity]="Mylist.quantity"
+    [currentPrice]="Mylist.price"
+    (onSubmit)="onSubmit($event)"></app-listing-data-form>
+</div>
+<div class="create-list-container" *ngIf="!Mylist">
+    
+</div>
+
+
+

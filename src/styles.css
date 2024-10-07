@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Light grey for background */
+    box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+#page-wrap {
+    background-color: #FFF; /* White background for the main area */
+    min-height: 100vh;
+    display: flex; /* Use flex to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 16px; /* Add padding to prevent content from touching edges */
+}
+
+#max-width-column {
+    max-width: 800px; /* Set max width */
+    width: 100%; /* Allow it to be responsive */
+    padding: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #FFF;
+}
+
+#app-heading {
+    text-align: center; /* Center the heading */
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #333; /* Darker text for better readability */
+}
+
+#content-wrap {
+    margin-bottom: 16px; /* Space between the content and button */
+    
+}
+
+
+#top-bar a {
+    color: white; /* Keep the link color */
+    text-decoration: none; /* Remove underline */
+    font-size: inherit;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between; /* Space between name/quantity and buttons */
+    align-items: center; /* Center items vertically */
+    padding: 12px; /* Increased padding for better spacing */
+    background-color: #FFF; /* White background for items */
+    border: 1px solid #CCC; /* Light grey border for items */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 8px; /* Space between each item */
+}
+
+.buttons-container {
+    display: flex;
+    gap: 8px; /* Space between the buttons */
+    margin-top: 10px; /* Add space above buttons */
+    justify-content: center; /* Center the buttons */
+
+}
+
+button {
+    background-color: #FFF; /* White button background */
+    border: 1px solid #333; /* Dark border for the buttons */
+    border-radius: 5px; /* Rounded corners */
+    color: #333; /* Dark text for buttons */
+    cursor: pointer;
+    padding: 8px 12px; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #F0F0F0; /* Light grey on hover */
+}
+
+
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    #max-width-column {
+        padding: 19px; /* Adjust padding for smaller screens */
+    }
+
+    .content-box {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center text for smaller screens */
+        padding: 16px; /* Increase padding for better readability */
+    }
+
+    .buttons-container {
+        margin-top: 10px; /* Add space above buttons */
+        justify-content: center; /* Center the buttons */
+    }
+
+    button {
+        font-size: 12px; /* Reduce button font size on small screens */
+        padding: 6px 8px; /* Adjust padding for smaller buttons */
+    }
+
+    #app-heading {
+        font-size: 24px; /* Reduce heading size for smaller screens */
+    }
+
+
+    a {
+        text-decoration: none; /* Removes underline from the link */
+    }
+   .buttons-container {
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Ensure the container takes up the full width */
+    margin: 20px 0; /* Add some margin to separate from other elements */
+}
+
+.newlistButton {
+    display: inline-block; /* Button behaves as a block element */
+    background-color: #FFF; /* Button background color */
+    border: 1px solid #333; /* Dark border */
+    color: #333; /* Dark text */
+    border-radius: 5px; /* Rounded corners */
+    padding: 8px 24px; /* Adjusted padding */
+    font-size: 13px; /* Adjusted font size */
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s; /* Smooth hover effect */
+    text-decoration: none; /* Remove underline */
+}
+
+.newlistButton:hover {
+    background-color: #F0F0F0; /* Light grey on hover */
+}
+
+}    
